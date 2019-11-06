@@ -19,3 +19,11 @@
 - node
 - npm
 - webpack
+
+
+## react 脚手架创建后暴漏配置文件 运行yarn eject 报错 （已解决）
+1. 创建项目后 运行yarn eject 报错问题
+- git add .
+- git commit -am "save before eject"
+注：这里是 -am
+之后再次 yarn eject即可
